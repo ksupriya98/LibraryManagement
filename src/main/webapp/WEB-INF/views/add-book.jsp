@@ -14,7 +14,7 @@
         <p class="subtitle">Enter details for a new entry</p>
     </header>
 
-    <form action="save" method="post">
+    <form action="${pageContext.request.contextPath}/book/save" method="post">
         <div class="form-group">
             <label for="title">Title</label>
             <input type="text" id="title" name="title" required>
@@ -29,7 +29,7 @@
         </div>
         <div class="form-actions">
             <button type="submit" class="btn">Save</button>
-            <a href="list" class="btn btn-secondary">Cancel</a>
+            <a href="${pageContext.request.contextPath}/" class="btn btn-secondary">Cancel</a>
         </div>
     </form>
 </div>

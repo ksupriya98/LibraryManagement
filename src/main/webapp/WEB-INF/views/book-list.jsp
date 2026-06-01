@@ -16,7 +16,7 @@
     </header>
 
     <div class="actions">
-        <a href="showForm" class="btn">Add Book</a>
+        <a href="${pageContext.request.contextPath}/book/showForm" class="btn">Add Book</a>
     </div>
 
     <c:choose>
